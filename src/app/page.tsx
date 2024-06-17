@@ -36,8 +36,8 @@ export default function Home() {
         <Image
           src="/email.svg"
           alt="Icon de Email"
-          width={15}
-          height={15}
+          width={100}
+          height={100}
           className="w-4"
          />
          <a href="https://mail.google.com" className="text-white font-normal text-sm">rodrigoa0987@gmail.com</a>

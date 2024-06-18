@@ -26,7 +26,7 @@ export default function Home() {
         <div className="flex items-center justify-center border-solid border-2 border-white w-[320px] md:w-[700px] h-10 md:h-12 rounded-full">
         <a href="https://api.whatsapp.com/send?phone=5588992744891&text=Ol%C3%A1,%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento!" 
            target="_blank" 
-           className="text-white font-normal text-sm">Peça um Orçamento!</a>
+           className="text-white font-normal text-sm">Fale Comigo</a>
         </div>
         <div className="flex items-center justify-center border-solid border-2 border-white w-[320px] md:w-[700px] h-10 md:h-12 rounded-full">
         <a href="https://skrodrigo.vercel.app/" 
@@ -37,6 +37,11 @@ export default function Home() {
         <a href="https://www.linkedin.com/in/skrodrigo" 
            target="_blank" 
            className="text-white font-normal text-sm">Meu Linkedin</a>
+        </div>
+        <div className="flex items-center justify-center border-solid border-2 border-white w-[320px] md:w-[700px] h-10 md:h-12 rounded-full">
+        <a href="https://github.com/skrodrigo" 
+           target="_blank" 
+           className="text-white font-normal text-sm">Meu Github</a>
         </div>
       </div>
       <div className="flex items-center justify-center space-x-1">

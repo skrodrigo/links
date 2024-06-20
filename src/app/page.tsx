@@ -1,3 +1,4 @@
+import { Button } from "./components/Button";
 import DesignParticles from "./components/DesignParticles";
 import Image from 'next/image'
 
@@ -19,38 +20,37 @@ export default function Home() {
         Tenho 18 anos e sou estudante de Sistemas de Informação. 
         Atualmente trabalho como Full Stacks Junior. </p>
       </div>
+
       <div className="absolute">
         <DesignParticles />
       </div>
+
       <div className="flex flex-col items-center justify-center z-50 space-y-5">
-        <div className="flex items-center justify-center border-solid border-2 border-white w-[320px] md:w-[700px] h-10 md:h-12 rounded-full">
-        <a href="https://api.whatsapp.com/send?phone=5588992744891&text=Ol%C3%A1,%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento!" 
-           target="_blank" 
-           className="text-white font-normal text-sm">Fale Comigo</a>
-        </div>
-        <div className="flex items-center justify-center border-solid border-2 border-white w-[320px] md:w-[700px] h-10 md:h-12 rounded-full">
-        <a href="https://skrodrigo.vercel.app/" 
-           target="_blank" 
-           className="text-white font-normal text-sm">Meu Portfólio</a>
-        </div>
-        <div className="flex items-center justify-center border-solid border-2 border-white w-[320px] md:w-[700px] h-10 md:h-12 rounded-full">
-        <a href="https://www.linkedin.com/in/skrodrigo" 
-           target="_blank" 
-           className="text-white font-normal text-sm">Meu Linkedin</a>
-        </div>
-        <div className="flex items-center justify-center border-solid border-2 border-white w-[320px] md:w-[700px] h-10 md:h-12 rounded-full">
-        <a href="https://github.com/skrodrigo" 
-           target="_blank" 
-           className="text-white font-normal text-sm">Meu Github</a>
-        </div>
+        <Button
+          text="Fale Comigo"
+          url="https://api.whatsapp.com/send?phone=5588992744891&text=Ol%C3%A1,%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento!"
+         />
+        <Button
+          text="Meu Portfólio"
+          url="https://skrodrigo.vercel.app/"
+         />
+        <Button
+          text="Meu Linkedin"
+          url="https://www.linkedin.com/in/skrodrigo"
+         />
+        <Button
+          text="Meu Github"
+          url="https://github.com/skrodrigo"
+         />
       </div>
+
       <div className="flex items-center justify-center space-x-1">
         <Image
           src="/email.svg"
           alt="Icon de Email"
-          width={100}
-          height={100}
-          className="w-4"
+          width={90}
+          height={90}
+          className="w-5"
          />
          <a href="https://mail.google.com" className="text-white font-normal text-sm">rodrigoa0987@gmail.com</a>
       </div>

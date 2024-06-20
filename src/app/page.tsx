@@ -50,7 +50,7 @@ export default function Home() {
           alt="Icon de Email"
           width={90}
           height={90}
-          className="w-5"
+          className="w-4"
          />
          <a href="https://mail.google.com" className="text-white font-normal text-sm">rodrigoa0987@gmail.com</a>
       </div>
